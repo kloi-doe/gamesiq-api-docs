@@ -1,0 +1,46 @@
+---
+title: "Employees"
+---
+## Endpoints
+### `GET /employees/`
+employees_list
+```bash
+curl -X GET "https://YOUR-API-HOST/employees/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /employees/`
+employees_create
+```bash
+curl -X POST "https://YOUR-API-HOST/employees/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /employees/batch_create_hubspot/`
+Batch Create from HubSpot
+```bash
+curl -X POST "https://YOUR-API-HOST/employees/batch_create_hubspot/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `DELETE /employees/{id}/`
+employees_destroy
+```bash
+curl -X DELETE "https://YOUR-API-HOST/employees/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /employees/{id}/`
+employees_retrieve
+```bash
+curl -X GET "https://YOUR-API-HOST/employees/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `PATCH /employees/{id}/`
+employees_partial_update
+```bash
+curl -X PATCH "https://YOUR-API-HOST/employees/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `PUT /employees/{id}/`
+employees_update
+```bash
+curl -X PUT "https://YOUR-API-HOST/employees/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```

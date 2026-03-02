@@ -1,0 +1,19 @@
+---
+title: "Authentication"
+---
+
+Most endpoints require one of:
+
+- Aws Cognito Auth
+- Internal API Key Auth
+- cookieAuth
+- tokenAuth
+
+Use bearer token by default:
+
+```bash
+curl -H "Authorization: Bearer <TOKEN>" \
+  https://YOUR-API-HOST/campaigns/
+```
+
+> Keep tokens in environment variables, never hardcode.

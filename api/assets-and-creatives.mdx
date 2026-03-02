@@ -1,0 +1,82 @@
+---
+title: "Assets & Creatives"
+---
+## Endpoints
+### `GET /assets/`
+assets_list
+```bash
+curl -X GET "https://YOUR-API-HOST/assets/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /assets/`
+assets_create
+```bash
+curl -X POST "https://YOUR-API-HOST/assets/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `DELETE /assets/{id}/`
+assets_destroy
+```bash
+curl -X DELETE "https://YOUR-API-HOST/assets/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /assets/{id}/`
+assets_retrieve
+```bash
+curl -X GET "https://YOUR-API-HOST/assets/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `PATCH /assets/{id}/`
+assets_partial_update
+```bash
+curl -X PATCH "https://YOUR-API-HOST/assets/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `PUT /assets/{id}/`
+assets_update
+```bash
+curl -X PUT "https://YOUR-API-HOST/assets/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /creatives/`
+creatives_list
+```bash
+curl -X GET "https://YOUR-API-HOST/creatives/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /creatives/`
+creatives_create
+```bash
+curl -X POST "https://YOUR-API-HOST/creatives/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `DELETE /creatives/{id}/`
+creatives_destroy
+```bash
+curl -X DELETE "https://YOUR-API-HOST/creatives/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /creatives/{id}/`
+creatives_retrieve
+```bash
+curl -X GET "https://YOUR-API-HOST/creatives/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `PATCH /creatives/{id}/`
+creatives_partial_update
+```bash
+curl -X PATCH "https://YOUR-API-HOST/creatives/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `PUT /creatives/{id}/`
+creatives_update
+```bash
+curl -X PUT "https://YOUR-API-HOST/creatives/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /creatives/{id}/update_video_path/`
+Update Video Path
+```bash
+curl -X POST "https://YOUR-API-HOST/creatives/<id>/update_video_path/" \
+  -H "Authorization: Bearer <TOKEN>"
+```

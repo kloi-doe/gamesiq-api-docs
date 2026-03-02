@@ -1,0 +1,106 @@
+---
+title: "Deals"
+---
+## Endpoints
+### `GET /deal_files/`
+deal_files_list
+```bash
+curl -X GET "https://YOUR-API-HOST/deal_files/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /deal_files/`
+deal_files_create
+```bash
+curl -X POST "https://YOUR-API-HOST/deal_files/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /deal_files/batch_create/`
+Batch Create Deal Files
+```bash
+curl -X POST "https://YOUR-API-HOST/deal_files/batch_create/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /deal_files/search/`
+Search Deal Files
+```bash
+curl -X POST "https://YOUR-API-HOST/deal_files/search/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `DELETE /deal_files/{id}/`
+deal_files_destroy
+```bash
+curl -X DELETE "https://YOUR-API-HOST/deal_files/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /deal_files/{id}/`
+deal_files_retrieve
+```bash
+curl -X GET "https://YOUR-API-HOST/deal_files/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `PATCH /deal_files/{id}/`
+deal_files_partial_update
+```bash
+curl -X PATCH "https://YOUR-API-HOST/deal_files/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `PUT /deal_files/{id}/`
+deal_files_update
+```bash
+curl -X PUT "https://YOUR-API-HOST/deal_files/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /deals/`
+deals_list
+```bash
+curl -X GET "https://YOUR-API-HOST/deals/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /deals/`
+deals_create
+```bash
+curl -X POST "https://YOUR-API-HOST/deals/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /deals/batch_create/`
+Batch Create Deals
+```bash
+curl -X POST "https://YOUR-API-HOST/deals/batch_create/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /deals/hubspot/all/`
+Get All HubSpot Deals
+```bash
+curl -X GET "https://YOUR-API-HOST/deals/hubspot/all/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /deals/search/`
+Search Deals
+```bash
+curl -X POST "https://YOUR-API-HOST/deals/search/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `DELETE /deals/{id}/`
+deals_destroy
+```bash
+curl -X DELETE "https://YOUR-API-HOST/deals/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /deals/{id}/`
+deals_retrieve
+```bash
+curl -X GET "https://YOUR-API-HOST/deals/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `PATCH /deals/{id}/`
+deals_partial_update
+```bash
+curl -X PATCH "https://YOUR-API-HOST/deals/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `PUT /deals/{id}/`
+deals_update
+```bash
+curl -X PUT "https://YOUR-API-HOST/deals/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```

@@ -1,0 +1,256 @@
+---
+title: "Data Files"
+---
+## Endpoints
+### `GET /daily_data_files/`
+daily_data_files_list
+```bash
+curl -X GET "https://YOUR-API-HOST/daily_data_files/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /daily_data_files/`
+daily_data_files_create
+```bash
+curl -X POST "https://YOUR-API-HOST/daily_data_files/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /daily_data_files/available_dates/`
+daily_data_files_available_dates_retrieve
+```bash
+curl -X GET "https://YOUR-API-HOST/daily_data_files/available_dates/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /daily_data_files/batch_create/`
+daily_data_files_batch_create_create
+```bash
+curl -X POST "https://YOUR-API-HOST/daily_data_files/batch_create/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /daily_data_files/cost_analysis/`
+daily_data_files_cost_analysis_retrieve
+```bash
+curl -X GET "https://YOUR-API-HOST/daily_data_files/cost_analysis/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /daily_data_files/get_by_key/`
+daily_data_files_get_by_key_retrieve
+```bash
+curl -X GET "https://YOUR-API-HOST/daily_data_files/get_by_key/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /daily_data_files/overview/`
+daily_data_files_overview_retrieve
+```bash
+curl -X GET "https://YOUR-API-HOST/daily_data_files/overview/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /daily_data_files/sync_files/`
+daily_data_files_sync_files_create
+```bash
+curl -X POST "https://YOUR-API-HOST/daily_data_files/sync_files/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /daily_data_files/synced_files_keys/`
+daily_data_files_synced_files_keys_retrieve
+```bash
+curl -X GET "https://YOUR-API-HOST/daily_data_files/synced_files_keys/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /daily_data_files/update_import_status_by_key/`
+daily_data_files_update_import_status_by_key_create
+```bash
+curl -X POST "https://YOUR-API-HOST/daily_data_files/update_import_status_by_key/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `DELETE /daily_data_files/{id}/`
+daily_data_files_destroy
+```bash
+curl -X DELETE "https://YOUR-API-HOST/daily_data_files/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /daily_data_files/{id}/`
+daily_data_files_retrieve
+```bash
+curl -X GET "https://YOUR-API-HOST/daily_data_files/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `PATCH /daily_data_files/{id}/`
+daily_data_files_partial_update
+```bash
+curl -X PATCH "https://YOUR-API-HOST/daily_data_files/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `PUT /daily_data_files/{id}/`
+daily_data_files_update
+```bash
+curl -X PUT "https://YOUR-API-HOST/daily_data_files/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /daily_data_files/{id}/check_import_percentage/`
+daily_data_files_check_import_percentage_create
+```bash
+curl -X POST "https://YOUR-API-HOST/daily_data_files/<id>/check_import_percentage/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /daily_data_files/{id}/check_import_status/`
+Check Import Status
+```bash
+curl -X POST "https://YOUR-API-HOST/daily_data_files/<id>/check_import_status/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /daily_data_files/{id}/import_daily_data/`
+Import Daily Data
+```bash
+curl -X POST "https://YOUR-API-HOST/daily_data_files/<id>/import_daily_data/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /data/`
+data_list
+```bash
+curl -X GET "https://YOUR-API-HOST/data/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /data/`
+data_create
+```bash
+curl -X POST "https://YOUR-API-HOST/data/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /data/batch_create/`
+Batch Create Campaign Data
+```bash
+curl -X POST "https://YOUR-API-HOST/data/batch_create/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /data/batch_firehose/`
+Batch Import from Firehose
+```bash
+curl -X POST "https://YOUR-API-HOST/data/batch_firehose/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /data/cost-analysis/`
+Cost Analysis Report
+```bash
+curl -X GET "https://YOUR-API-HOST/data/cost-analysis/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /data/unique_values/`
+data_unique_values_retrieve
+```bash
+curl -X GET "https://YOUR-API-HOST/data/unique_values/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `DELETE /data/{id}/`
+data_destroy
+```bash
+curl -X DELETE "https://YOUR-API-HOST/data/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /data/{id}/`
+data_retrieve
+```bash
+curl -X GET "https://YOUR-API-HOST/data/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `PATCH /data/{id}/`
+data_partial_update
+```bash
+curl -X PATCH "https://YOUR-API-HOST/data/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `PUT /data/{id}/`
+data_update
+```bash
+curl -X PUT "https://YOUR-API-HOST/data/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /raw_data_files/`
+raw_data_files_list
+```bash
+curl -X GET "https://YOUR-API-HOST/raw_data_files/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /raw_data_files/`
+raw_data_files_create
+```bash
+curl -X POST "https://YOUR-API-HOST/raw_data_files/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /raw_data_files/available_dates/`
+raw_data_files_available_dates_retrieve
+```bash
+curl -X GET "https://YOUR-API-HOST/raw_data_files/available_dates/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /raw_data_files/batch_create/`
+raw_data_files_batch_create_create
+```bash
+curl -X POST "https://YOUR-API-HOST/raw_data_files/batch_create/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /raw_data_files/cost_analysis/`
+raw_data_files_cost_analysis_retrieve
+```bash
+curl -X GET "https://YOUR-API-HOST/raw_data_files/cost_analysis/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /raw_data_files/import_file_keys/`
+Import File Keys
+```bash
+curl -X POST "https://YOUR-API-HOST/raw_data_files/import_file_keys/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /raw_data_files/overview/`
+raw_data_files_overview_retrieve
+```bash
+curl -X GET "https://YOUR-API-HOST/raw_data_files/overview/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /raw_data_files/process_raw_files/`
+Process Raw Files
+```bash
+curl -X POST "https://YOUR-API-HOST/raw_data_files/process_raw_files/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /raw_data_files/sync_files/`
+raw_data_files_sync_files_create
+```bash
+curl -X POST "https://YOUR-API-HOST/raw_data_files/sync_files/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /raw_data_files/synced_files_keys/`
+raw_data_files_synced_files_keys_retrieve
+```bash
+curl -X GET "https://YOUR-API-HOST/raw_data_files/synced_files_keys/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `DELETE /raw_data_files/{id}/`
+raw_data_files_destroy
+```bash
+curl -X DELETE "https://YOUR-API-HOST/raw_data_files/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /raw_data_files/{id}/`
+raw_data_files_retrieve
+```bash
+curl -X GET "https://YOUR-API-HOST/raw_data_files/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `PATCH /raw_data_files/{id}/`
+raw_data_files_partial_update
+```bash
+curl -X PATCH "https://YOUR-API-HOST/raw_data_files/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `PUT /raw_data_files/{id}/`
+raw_data_files_update
+```bash
+curl -X PUT "https://YOUR-API-HOST/raw_data_files/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /raw_data_files/{id}/check_import_percentage/`
+raw_data_files_check_import_percentage_create
+```bash
+curl -X POST "https://YOUR-API-HOST/raw_data_files/<id>/check_import_percentage/" \
+  -H "Authorization: Bearer <TOKEN>"
+```

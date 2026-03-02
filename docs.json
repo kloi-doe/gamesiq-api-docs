@@ -1,0 +1,39 @@
+{
+  "$schema": "https://mintlify.com/docs.json",
+  "name": "gamesIq Internal API",
+  "theme": "mint",
+  "colors": {
+    "primary": "#2563eb",
+    "light": "#60a5fa",
+    "dark": "#1d4ed8"
+  },
+  "navigation": [
+    {
+      "group": "Getting Started",
+      "pages": [
+        "introduction",
+        "authentication",
+        "query-patterns"
+      ]
+    },
+    {
+      "group": "API Reference",
+      "pages": [
+        "api/index",
+        "api/analytics",
+        "api/campaigns",
+        "api/deals",
+        "api/data-files",
+        "api/assets-and-creatives",
+        "api/brands-and-lists",
+        "api/employees"
+      ]
+    },
+    {
+      "group": "Tools",
+      "pages": [
+        "postman"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+---
+title: "Campaigns"
+---
+## Endpoints
+### `GET /campaigns/`
+campaigns_list
+```bash
+curl -X GET "https://YOUR-API-HOST/campaigns/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /campaigns/`
+campaigns_create
+```bash
+curl -X POST "https://YOUR-API-HOST/campaigns/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `POST /campaigns/batch_create/`
+Batch Create Projects
+```bash
+curl -X POST "https://YOUR-API-HOST/campaigns/batch_create/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /campaigns/by_internal_id/{internal_id}/`
+Get Campaign by Internal ID
+```bash
+curl -X GET "https://YOUR-API-HOST/campaigns/by_internal_id/<internal_id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /campaigns/overview-report/`
+Campaign Overview Report
+```bash
+curl -X GET "https://YOUR-API-HOST/campaigns/overview-report/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /campaigns/unique_campaigns/`
+Get Unique Campaigns
+```bash
+curl -X GET "https://YOUR-API-HOST/campaigns/unique_campaigns/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `DELETE /campaigns/{id}/`
+campaigns_destroy
+```bash
+curl -X DELETE "https://YOUR-API-HOST/campaigns/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /campaigns/{id}/`
+campaigns_retrieve
+```bash
+curl -X GET "https://YOUR-API-HOST/campaigns/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `PATCH /campaigns/{id}/`
+campaigns_partial_update
+```bash
+curl -X PATCH "https://YOUR-API-HOST/campaigns/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `PUT /campaigns/{id}/`
+campaigns_update
+```bash
+curl -X PUT "https://YOUR-API-HOST/campaigns/<id>/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /campaigns/{id}/analytics/`
+Get Campaign Analytics
+```bash
+curl -X GET "https://YOUR-API-HOST/campaigns/<id>/analytics/" \
+  -H "Authorization: Bearer <TOKEN>"
+```
+### `GET /campaigns/{id}/similar/`
+Find Similar Campaigns
+```bash
+curl -X GET "https://YOUR-API-HOST/campaigns/<id>/similar/" \
+  -H "Authorization: Bearer <TOKEN>"
+```

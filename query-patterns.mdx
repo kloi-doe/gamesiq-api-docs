@@ -1,0 +1,32 @@
+---
+title: "Query Patterns"
+---
+
+## Dynamic response shaping
+
+### `expand`
+Expand relations into nested objects.
+
+```bash
+GET /api/deals/?expand=brand,company
+```
+
+### `fields`
+Only return needed fields.
+
+```bash
+GET /api/games/?fields=id,name,bundle_id
+```
+
+### `omit`
+Remove noisy fields.
+
+```bash
+GET /api/deals/?omit=description,raw_data
+```
+
+### Combined
+
+```bash
+GET /api/deals/?expand=brand&fields=id,name,brand&omit=description
+```
